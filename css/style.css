@@ -1,0 +1,152 @@
+#container {
+    margin: 0 auto 10px auto;
+    width: 83.5%;
+    padding: 0 20px 20px 20px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 0 0 20px 20px
+}
+
+#scores {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 100px 0 100px;
+    height: 82px;
+    font-family: Lato, sans-serif
+}
+
+h2 {
+    font-family: Lato, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 20px;
+    display: inline-block
+}
+
+#winX {
+    width: 80px;
+    float: left
+}
+
+#scoreO {
+    float: left;
+    color: #00f
+}
+
+#size {
+    width: 168px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#size button {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+    height: 40px
+}
+
+#size input {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 20px
+}
+
+#size input:focus {
+    outline: 0
+}
+
+#size p {
+    width: 200px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    margin-right: 10px;
+    font-weight: 700
+}
+
+#winY {
+    width: 100px;
+    float: right;
+    margin-top: 10px
+}
+
+#scoreX {
+    float: right;
+    color: red
+}
+
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center
+}
+
+.reset,
+.resetGame,
+.resetScore {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    width: 150px;
+    height: 39px;
+    font-size: 1em;
+    font-family: Lato, sans-serif;
+    background-color: #00f;
+    border: none;
+    color: #fff;
+    letter-spacing: 2px
+}
+
+.reset:hover,
+.resetGame:hover,
+.resetScore:hover {
+    cursor: pointer
+}
+
+#winner {
+    font-family: Lato, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    color: #000;
+    height: 60px;
+    margin-bottom: 20px
+}
+
+table {
+    margin: 0 auto 20px auto;
+    background-color: #fff
+}
+
+td {
+    border: 1px solid #999;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 26px
+}
+
+#playerO,
+#playerO_win,
+.player_o {
+    color: #00f
+}
+
+#playerX,
+#playerX_win,
+.player_x {
+    color: red
+}
+
+#banana {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto
+}
+
+#unicorn {
+    width: 75px
+}
